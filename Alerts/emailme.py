@@ -9,9 +9,9 @@ def email_alert(live_feed_link):
     mail_content = "we have detected fire at your premisis. You can check the live feed of the situation here:\n" + \
         live_feed_link + "  snapshot is attached from live camera for your reference"
     # The mail addresses and password
-    sender_address = '1si18cs090@sit.ac.in'
-    sender_pass = '2468ritesh'
-    receiver_address = 'riteshseth2468@gmail.com'
+    sender_address = 'Your sending mail address'
+    sender_pass = 'your sender's password'
+    receiver_address = 'your receiver's email'
     # Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
